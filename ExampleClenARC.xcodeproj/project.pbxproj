@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		3FE84322331CE8F62C5AD8A5 /* Pods_ExampleClenARCTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40299065C1E9F0BB79F9EE24 /* Pods_ExampleClenARCTests.framework */; };
 		53D3AAB6DA7358151D9C2C9C /* Pods_ExampleClenARC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5315D8664699E14BCA1C2899 /* Pods_ExampleClenARC.framework */; };
+		5A0FE0FA240040F200ADE77E /* HomeDIContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A0FE0F9240040F200ADE77E /* HomeDIContainer.swift */; };
+		5A0FE0FC2400410900ADE77E /* ListDIContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A0FE0FB2400410900ADE77E /* ListDIContainer.swift */; };
+		5A0FE0FE240046DC00ADE77E /* AppDIContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A0FE0FD240046DC00ADE77E /* AppDIContainer.swift */; };
 		5A1A4FB323FABD7D00211E1C /* PokemonDetailsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1A4FB223FABD7D00211E1C /* PokemonDetailsService.swift */; };
 		5A1E4FC023F577B50021051A /* EmailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1E4FBF23F577B50021051A /* EmailViewController.swift */; };
 		5A1E4FC223F577C30021051A /* EmailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1E4FC123F577C30021051A /* EmailViewModel.swift */; };
@@ -25,7 +28,6 @@
 		5A3C82EB23F71CC600C58DF3 /* PokemonDetailsAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A3C82EA23F71CC600C58DF3 /* PokemonDetailsAPI.swift */; };
 		5A3C82ED23F720DB00C58DF3 /* PokemonDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A3C82EC23F720DB00C58DF3 /* PokemonDetails.swift */; };
 		5A75D00C23F471D600BF8231 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A75D00B23F471D600BF8231 /* AppDelegate.swift */; };
-		5A75D00E23F471D600BF8231 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A75D00D23F471D600BF8231 /* SceneDelegate.swift */; };
 		5A75D01023F471D600BF8231 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A75D00F23F471D600BF8231 /* ViewController.swift */; };
 		5A75D01323F471D600BF8231 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A75D01123F471D600BF8231 /* Main.storyboard */; };
 		5A75D01523F471D900BF8231 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A75D01423F471D900BF8231 /* Assets.xcassets */; };
@@ -53,6 +55,9 @@
 		40299065C1E9F0BB79F9EE24 /* Pods_ExampleClenARCTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ExampleClenARCTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		413A235DEFDE4F6FBAE5FF88 /* Pods-ExampleClenARCTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExampleClenARCTests.release.xcconfig"; path = "Target Support Files/Pods-ExampleClenARCTests/Pods-ExampleClenARCTests.release.xcconfig"; sourceTree = "<group>"; };
 		5315D8664699E14BCA1C2899 /* Pods_ExampleClenARC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ExampleClenARC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A0FE0F9240040F200ADE77E /* HomeDIContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeDIContainer.swift; sourceTree = "<group>"; };
+		5A0FE0FB2400410900ADE77E /* ListDIContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListDIContainer.swift; sourceTree = "<group>"; };
+		5A0FE0FD240046DC00ADE77E /* AppDIContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDIContainer.swift; sourceTree = "<group>"; };
 		5A1A4FB223FABD7D00211E1C /* PokemonDetailsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonDetailsService.swift; sourceTree = "<group>"; };
 		5A1E4FBF23F577B50021051A /* EmailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailViewController.swift; sourceTree = "<group>"; };
 		5A1E4FC123F577C30021051A /* EmailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailViewModel.swift; sourceTree = "<group>"; };
@@ -70,7 +75,6 @@
 		5A3C82EC23F720DB00C58DF3 /* PokemonDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonDetails.swift; sourceTree = "<group>"; };
 		5A75D00823F471D600BF8231 /* ExampleClenARC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExampleClenARC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A75D00B23F471D600BF8231 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5A75D00D23F471D600BF8231 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		5A75D00F23F471D600BF8231 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5A75D01223F471D600BF8231 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5A75D01423F471D900BF8231 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -110,6 +114,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5A0FE0F72400407700ADE77E /* DI */ = {
+			isa = PBXGroup;
+			children = (
+				5A0FE0F8240040D600ADE77E /* ScenesDI */,
+				5A0FE0FD240046DC00ADE77E /* AppDIContainer.swift */,
+			);
+			path = DI;
+			sourceTree = "<group>";
+		};
+		5A0FE0F8240040D600ADE77E /* ScenesDI */ = {
+			isa = PBXGroup;
+			children = (
+				5A0FE0F9240040F200ADE77E /* HomeDIContainer.swift */,
+				5A0FE0FB2400410900ADE77E /* ListDIContainer.swift */,
+			);
+			path = ScenesDI;
+			sourceTree = "<group>";
+		};
 		5A1E4FC323F5796F0021051A /* UseCase */ = {
 			isa = PBXGroup;
 			children = (
@@ -178,12 +200,12 @@
 		5A75D00A23F471D600BF8231 /* ExampleClenARC */ = {
 			isa = PBXGroup;
 			children = (
+				5A0FE0F72400407700ADE77E /* DI */,
 				5A75D03123F4728F00BF8231 /* Presentation */,
 				5A75D03023F4728C00BF8231 /* Domain */,
 				5A75D02E23F4725000BF8231 /* Data */,
 				5A75D02D23F4724800BF8231 /* Infrastructure */,
 				5A75D00B23F471D600BF8231 /* AppDelegate.swift */,
-				5A75D00D23F471D600BF8231 /* SceneDelegate.swift */,
 				5A75D00F23F471D600BF8231 /* ViewController.swift */,
 				5A75D01423F471D900BF8231 /* Assets.xcassets */,
 				5A75D01623F471D900BF8231 /* LaunchScreen.storyboard */,
@@ -474,6 +496,7 @@
 				5A1A4FB323FABD7D00211E1C /* PokemonDetailsService.swift in Sources */,
 				5A1E4FC023F577B50021051A /* EmailViewController.swift in Sources */,
 				5A1E4FC223F577C30021051A /* EmailViewModel.swift in Sources */,
+				5A0FE0FE240046DC00ADE77E /* AppDIContainer.swift in Sources */,
 				5A3C82EB23F71CC600C58DF3 /* PokemonDetailsAPI.swift in Sources */,
 				5A75D03823F474C000BF8231 /* MoyaService.swift in Sources */,
 				5A917C7723FAFA2800937A4C /* CacheService.swift in Sources */,
@@ -482,10 +505,11 @@
 				5A1E4FD023F5C4600021051A /* PokemonAPI.swift in Sources */,
 				5A75D00C23F471D600BF8231 /* AppDelegate.swift in Sources */,
 				5A75D04123F4899F00BF8231 /* CacheRepositoryImpl.swift in Sources */,
-				5A75D00E23F471D600BF8231 /* SceneDelegate.swift in Sources */,
 				5A3C82ED23F720DB00C58DF3 /* PokemonDetails.swift in Sources */,
 				5A3C82E223F6CF0400C58DF3 /* PokemonRepository.swift in Sources */,
 				5A1E4FD223F5C90C0021051A /* PokemonAPIName.swift in Sources */,
+				5A0FE0FC2400410900ADE77E /* ListDIContainer.swift in Sources */,
+				5A0FE0FA240040F200ADE77E /* HomeDIContainer.swift in Sources */,
 				5A1E4FC823F58A310021051A /* UserResponse.swift in Sources */,
 				5A3C82E423F6CF4B00C58DF3 /* PokemonRepositoryImpl.swift in Sources */,
 				5A1E4FCC23F5B59F0021051A /* HomeViewController.swift in Sources */,

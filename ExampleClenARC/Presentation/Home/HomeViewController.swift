@@ -9,6 +9,12 @@
 import UIKit
 
 class HomeViewController: UIViewController {
+    
+     public class func create() -> HomeViewController {
+           let storyboard = UIStoryboard(name: "Main", bundle: nil)
+           let view = storyboard.instantiateViewController(withIdentifier: "HomeViewController") as! HomeViewController
+           return view
+       }
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -17,13 +23,6 @@ class HomeViewController: UIViewController {
     }
     
     @IBAction func callEmailScreen(_ sender: Any) {
-        let pokeRepo = PokemonRepositoryImpl()
-        let repo = CacheRepositoryImpl()
-        let emailUseCase = EmailUseCase(cacheRepository: repo, pokeRepository: pokeRepo)
-        let vm = EmailViewModel(emailUseCase: emailUseCase)
-        let vc = EmailViewController.instantiate(viewModel: vm)
-        vc.modalPresentationStyle = .fullScreen
-        self.present(vc, animated: true, completion: nil)
     }
     
 }
